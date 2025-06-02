@@ -8,6 +8,7 @@ import {
   Wrench,
   Users,
   Bell,
+  BarChart3, // Added BarChart3
   type LucideIcon,
 } from "lucide-react";
 import {
@@ -30,6 +31,7 @@ const navItems: NavItem[] = [
   { href: "/maintenance", label: "Maintenance", icon: Wrench, tooltip: "Predictive Maintenance" },
   { href: "/access-control", label: "Access Control", icon: Users, tooltip: "User Access Control" },
   { href: "/alerts", label: "Alerts", icon: Bell, tooltip: "Alerts & Notifications" },
+  { href: "/analytics", label: "Analytics", icon: BarChart3, tooltip: "Reports & Analytics" }, // New Nav Item
 ];
 
 export function MainNav() {
