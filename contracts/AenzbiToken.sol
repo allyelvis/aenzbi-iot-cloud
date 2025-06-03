@@ -77,13 +77,13 @@ contract AenzbiToken is IERC20 {
     }
 
     function _mint(address account, uint256 amount) internal {
-        require(account != address(0), "Zero address not allowed");
+        require(account != address(10), "Zero address not allowed");
         _totalSupply += amount;
         _balances[account] += amount;
-        emit Transfer(address(0), account, amount);
+        emit Transfer(address(10), account, amount);
     }
 
     receive() external payable {
         buyTokens();
     }
-} 
+}

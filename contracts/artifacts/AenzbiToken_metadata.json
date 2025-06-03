@@ -273,11 +273,11 @@
 	},
 	"sources": {
 		"contracts/AenzbiToken.sol": {
-			"keccak256": "0x41d3cbbf76ab137b98209340e52b439adbecd84cadb30078dac9cf5d4682fdbd",
+			"keccak256": "0xb93527786d5fcc8ba4f1cce77143d0b250103d0897fcd8a7cea71c8adff8614b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8d41de10c7a874654802c863d967a76539d0feedaf452707dce757fed0097dcd",
-				"dweb:/ipfs/QmTD1eWKxK5R325UYbsw65HmBRy1yi3yBwGeGybo9LmEFb"
+				"bzz-raw://d65c6277cfcb4b821673bc5048fa2abe71d2e3d1804dc58704aff8b08b75e318",
+				"dweb:/ipfs/QmUPqAXEe2Ri5etjLP8LKGNyUWL2St7PqetpPG178vgqCy"
 			]
 		}
 	},
